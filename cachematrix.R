@@ -1,5 +1,7 @@
-## Put comments here that give an overall description of what your
-## functions do
+## Matrix inversion is usually a costly computation 
+## and their may be some benefit to caching the inverse of a matrix 
+## rather than compute it repeatedly 
+## The following two functions are used to cache the inverse of a matrix
 
 # makeCacheMatrix creates a list containing a function to
 # 1. set the matrix value
